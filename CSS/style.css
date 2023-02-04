@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/universe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: start;
+    color: #fff;
+    margin-left: 5px;
+}
+
+/*   Animaciones   */
+
+.lienzo{
+    border: 3px solid black;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.btn-reset{
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #832FDA;
+}
+
+.btn-reset:hover{
+    color: white;
+    background-color: #832FDA;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2{
+    font-weight: bold;
+}
+
+.lienzo-2{
+    background-color: blanchedalmond;
+    border: #111111 solid 2px;
+    border-radius: 5px;
+}
+
+.btn-box{
+    height: 40px;
+    width: 110px;
+    padding: 8px 5px;
+    border: none;
+    outline-offset: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px #f55678;
+}
+
+.btn-box:hover{
+    background-color: #832FDA;
+    color: #fff;
+    transform: scale(1.1);
+}
